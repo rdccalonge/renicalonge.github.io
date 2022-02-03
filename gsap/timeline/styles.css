@@ -1,0 +1,383 @@
+/**-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=->
+ * SET UP FONTS HERE
+ */
+/*@font-face {
+	font-family: myFont;
+	src: url(https://media.truex.com/file_assets/2017-09-06/f310ddd0-51bc-45e2-b886-6ed0caa778fb.woff);
+}
+
+div#container #myText {
+	left: 0;
+	top: 0;
+    width: 100px;
+    height: 100px;
+    font-family: myFont;
+    font-size: 500%;
+    color: white;
+    text-align: center;
+    line-height: 78%;
+    letter-spacing: 0;
+	pointer-events: none;
+}*/
+
+div#container,
+div#container div {
+	-webkit-user-select: none; /* Safari 3.1+ */
+ 	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+ 	user-select: none; /* Standard syntax */
+	position: absolute;
+    background-repeat: no-repeat;
+}
+
+div#container div {
+    background-size: contain;
+    transform: translateZ(0);
+}
+
+div#container .center {
+	left: 0px;
+	top: 0px; 
+	right: 0px; 
+	bottom: 0px;
+	margin: auto;
+}
+
+div#container .centerX {
+	left: 0px;
+	right: 0px; 
+	margin: 0px auto;
+}
+
+div#container .centerY {
+	top: 0px; 
+	bottom: 0px;
+	margin: auto 0px;
+}
+
+div#container {
+	width: 960px;
+	height: 500px;
+	background-color: #232f3e;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/**-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=->
+ * SET UP YOUR CREATIVE HERE
+ */
+
+div#container #logo {
+	left: 19px;
+    top: 18px;
+	width: 76px;
+	height: 47px;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translateZ(0);
+}
+
+
+div#container #STEP_2 {
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 500px;
+	display: none;
+}
+
+div#container #STEP_2 #s2_background {
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translateZ(0);
+}
+
+div#container #STEP_2 #s2_copy {
+	left: 0px;
+	top: 44px;
+	width: 405px;
+	height: 88px;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translateZ(0);
+}
+
+div#container #STEP_2 .hs_txt {
+	top: 311px;
+	width: 200px;
+	height: 33px;
+	background-repeat: no-repeat;
+	background-size: 800px auto;
+	background-position-y: top;
+	transform: translateZ(0);
+	pointer-events: none;
+}
+
+div#container #STEP_2 .hs_txt.hs_txt_0 {
+	left: 74px;	
+	background-position-x: 0;
+}
+
+div#container #STEP_2 .hs_txt.hs_txt_1 {
+	left: 278px;	
+	background-position-x: -200px;
+}
+
+div#container #STEP_2 .hs_txt.hs_txt_2 {
+	left: 482px;	
+	background-position-x: -400px;
+}
+
+div#container #STEP_2 .hs_txt.hs_txt_3 {
+	left: 686px;	
+	background-position-x: -600px;
+}
+
+div#container #STEP_2 .hs_txt.hs_txt_hover {
+	background-position-y: bottom;
+	opacity: 0;
+}
+
+div#container #STEP_2 .btn_hs_txt {
+	top: 311px;
+	width: 200px;
+	height: 33px;
+	background-color: transparent;
+}
+
+div#container #STEP_2 .btn_hs_txt#btn_hs_txt_0 {
+	left: 74px;
+}
+
+div#container #STEP_2 .btn_hs_txt#btn_hs_txt_1 {
+	left: 278px;
+}
+
+div#container #STEP_2 .btn_hs_txt#btn_hs_txt_2 {
+	left: 482px;
+}
+
+div#container #STEP_2 .btn_hs_txt#btn_hs_txt_3 {
+	left: 686px;
+}
+
+div#container #STEP_2 .hs_img_hover {
+	width: 182px;
+	height: 99px;
+	background-color: transparent;
+	border-radius: 7px;
+	border: 4px solid #00caff;
+	opacity: 0;
+	pointer-events: none;
+}
+
+div#container #STEP_2 .hs_img_hover.hs_img_hover_0 {
+    top: 175px;
+    left: 79px;
+
+}
+
+div#container #STEP_2 .hs_img_hover.hs_img_hover_1 {
+	top: 372px;
+    left: 283px;
+}
+
+div#container #STEP_2 .hs_img_hover.hs_img_hover_2 {
+	top: 175px;
+    left: 487px;
+}
+
+div#container #STEP_2 .hs_img_hover.hs_img_hover_3 {
+	top: 372px;
+    left: 691px;
+}
+
+
+
+div#container #STEP_2 .btn_hs_img {
+	width: 191px;
+    height: 109px;
+	background-color: transparent;
+	border-radius: 7px;
+}
+
+div#container #STEP_2 .btn_hs_img#btn_hs_img_0 {
+    top: 175px;
+    left: 79px;
+
+}
+
+div#container #STEP_2 .btn_hs_img#btn_hs_img_1 {
+	top: 372px;
+    left: 283px;
+}
+
+div#container #STEP_2 .btn_hs_img#btn_hs_img_2 {
+	top: 175px;
+    left: 487px;
+}
+
+div#container #STEP_2 .btn_hs_img#btn_hs_img_3 {
+	top: 372px;
+    left: 691px;
+}
+
+
+div#container #STEP_3 {
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 500px;
+	display: none;
+}
+
+div#container #STEP_3 #btn_cta {
+	left: 636px;
+    top: 357px;
+	opacity: 0;
+}
+
+div#container #STEP_3 .cta {
+	width: 183px;
+	height: 33px;
+}
+
+div#container #STEP_3 .cta#cta_bg {
+	background: #00caff;
+	border-radius: 3px;
+}
+
+div#container #STEP_3 .cta.spr_cta {
+	background-size: 183px auto;
+}
+
+div#container #STEP_3 .cta#cta_static {
+	background-position: top;
+}
+
+div#container #STEP_3 .cta#cta_hover {
+	background-position: bottom;
+	opacity: 0;
+}
+
+div#container #STEP_3 #gif_1 {
+	top: 106px;
+    left: 701px;
+    width: 100px;
+    height: 100px;
+	opacity: 0;
+}
+
+div#container #STEP_3 #gif_1_0 {
+	top: 0px;
+	left: 0px;
+	width: 34px;
+	height: 35px;
+	transform-origin: center center;
+	transform: rotate(-22deg) translateZ(0) ;
+}
+
+div#container #STEP_3 #img_ball {
+	top: 31px;
+    left: 13px;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+div#container #STEP_3 #img_bell {
+	top: 0px;
+	left: 0px;
+	width: 34px;
+	height: 35px;
+}
+
+div#container #STEP_3 #gif_2 {
+	top: 110px;
+    left: 697px;
+    width: 84px;
+    height: 100px;
+	opacity: 0;
+}
+
+div#container #STEP_3 #img_ink {
+	top: 33px;
+    left: 0px;
+    width: 44px;
+    height: 1px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+div#container #STEP_3 #img_pencil {
+	top: 0px;
+    left: 45px;
+    width: 35px;
+    height: 35px;
+}
+
+div#container #STEP_3 #gif_3 {
+	top: 109px;
+    left: 705px;
+    width: 100px;
+    height: 100px;
+	opacity: 0;
+}
+
+div#container #STEP_3 #img_loading {
+	top: 4px;
+	left: 13px;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+div#container #STEP_3 #img_monitor {
+	top: 0px;
+	left: 0px;
+	width: 46px;
+	height: 36px;
+}
+
+div#container #STEP_3 #btn_close {
+	top: 65px;
+    left: 860px;
+    width: 50px;
+    height: 50px;
+}
+
+div#container #STEP_3 #img_close {
+	width: 37px;
+	height: 37px;
+}
+/**-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=->
+ * SET UP GUIDE HERE
+ */
+
+div#container #STEP_3 #btn_vids {
+    width: 480px;
+   height: 269px;
+    top: 115px;
+    left: 89px;
+    border-radius: 1%;
+	background-size:100% 100%;
+	border-radius: 1%;
+}
+/**-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=->
+ * SET UP GUIDE HERE
+ */
+div#container #guide {	
+	background: url(guide/F4.jpg) no-repeat;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	pointer-events: none;
+	background-size: contain;
+    z-index: 5;
+}
