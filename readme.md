@@ -7,7 +7,10 @@ To compile the .min.js file, run: `uglifyjs --comments '/license:/' < jquery.zoo
 ## Changelog:
 
 ##### v1.7.22 - 2024/7/04
-* Add new Experiences and skills
+* Add Powerapps
+
+##### v1.7.22 - 2024/7/04
+* Add new experiences and skills
 
 ##### v1.7.21 - 2018/4/26
 * Added empty alt attribute. Resolves #134
